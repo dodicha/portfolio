@@ -28,16 +28,17 @@ console.log(weatherData)
 
   return (
     <>
-      <WeatherInfo/>
+    <div className='flex  justify-center'>
       <SearchBar/>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-      </h1>
+    </div>
 
+    <div className='flex justify-center'>
+      <WeatherInfo/>
+    </div>
     
-      <h1>
-      Hello world!
-      </h1>
+      
+      
+      
 
     </>
   )
