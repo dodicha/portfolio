@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        '300': '300px',
+        '15': '15px',
+      },
+      borderRadius: {
+        '50': '50px'
+      },
+    },
   },
   plugins: [],
 }
